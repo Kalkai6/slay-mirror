@@ -1,0 +1,22 @@
+# Python environment
+envs/
+__pycache__/
+*.pyc
+
+# Model weights (large files, downloaded via script, not needed in git)
+fashn-vton-1.5/weights/
+fashn-vton-1.5/outputs/
+backend/outputs/
+
+# Personal photos used for testing (never commit these)
+fashn-vton-1.5/examples/data/my_photo.jpeg
+fashn-vton-1.5/examples/data/my_garment.jpeg
+
+# Node.js
+frontend/node_modules/
+frontend/dist/
+
+# Editor/OS files
+.vscode/
+.DS_Store
+Thumbs.db
